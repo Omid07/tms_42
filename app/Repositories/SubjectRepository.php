@@ -18,7 +18,7 @@ class SubjectRepository
     }
     public function findSubject($id)
     {
-        return Subject::findOrFail($id);
+        return Subject::find($id);
     }
     public function createSubject($input)
     {
